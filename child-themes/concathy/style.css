@@ -1,0 +1,284 @@
+/*
+Theme Name: ConciergeCathy
+Description: A theme for our favorite concierge 
+Author: Andy McCormick andy@chiseledimages.com
+Template: att-agency
+Version: 1.0
+*/
+@import url("../att-agency/style.css");
+
+.cathy, .blog .post-heading a {
+    font-family: 'Allura', cursive;
+    font-weight: 100;
+}
+
+.blog .post-heading a {
+    font-size: 164%;
+    font-weight: 100;
+}
+
+.font150 {
+    font-size: 150%;
+}
+
+h3.cathy {
+    font-size: 200%;
+    font-weight: 100;
+}
+
+button, input[type="button"], input[type="submit"], button:hover, input[type="button"]:hover, input[type="submit"]:hover, .theme-button:hover {
+  background-color: #6E2A80;
+  border: 1px solid #6E2A80;
+}
+
+/** header area**/
+#masthead-wrap {
+background: #854c96!important; /* Old browsers */
+background: -moz-linear-gradient(top, #854c96 0%, #6e2a80 98%)!important; /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#854c96), color-stop(98%,#6e2a80))!important; /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #854c96 0%,#6e2a80 98%)!important; /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #854c96 0%,#6e2a80 98%)!important; /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #854c96 0%,#6e2a80 98%)!important; /* IE10+ */
+background: linear-gradient(to bottom, #854c96 0%,#6e2a80 98%)!important; /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#854c96', endColorstr='#6e2a80',GradientType=0 )!important; /* IE6-9 */
+
+}
+
+#logo {
+    width: 30%;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+body a {
+    color: #0E0E0E;
+}
+
+
+/** Nav Menu **/
+#site-navigation {
+  font-size: 141%;
+ }
+ 
+ #site-navigation .sf-menu a {
+   padding: 54px 20px 12px;
+  }
+  
+  #site-navigation .sf-menu > li.sfHover > a, #site-navigation .sf-menu > .current-menu-item > a, #site-navigation .current-menu-parent > a, #site-navigation .current-menu-parent > a:hover, #site-navigation .sf-menu > .current-menu-item > a:hover, #site-navigation .sf-menu > li > a:hover {
+  border-top: 3px solid #FFFFFF;
+}
+
+/*** Social Header **/
+
+#social-header {
+    float: right;
+    position: absolute;
+    right: 2px;
+    top: 26px;
+    width: 10%;
+}
+
+/** Slider Text**/
+#home-slider .flex-caption {
+  top: 16%;
+  margin-left: 5%;
+  text-align: left;
+}
+
+#home-slider .flex-caption-inner {
+  background: none repeat scroll 0 0 rgba(110, 42, 128, 0.65);
+  border-radius: 20px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin: 0 auto;
+  max-width: 40%;
+  padding: 15px;
+  text-transform: none;
+}
+
+#home-slider .flex-caption p, #home-slider .flex-caption h2, #home-slider .flex-caption h3 {
+  font-size: 164%;
+ }
+
+/* slider size */
+#home-slider img {
+    width: 100%;
+    margin-top: 0;
+}
+
+/**home text content **/
+#home-content {
+  border-bottom: 1px solid #808080;
+  border-top: 1px solid #808080;
+  padding: 36px 36px 29px;
+}
+
+#home-content p {
+    font-size: 129%;
+    color: #0E0E0E;
+}
+
+img.services-entry-icon {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.services-entry:hover img.services-entry-icon  {
+
+            filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'saturate\' values=\'0.5\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+    filter: gray alpha(opacity=50); /* IE6-9 */
+    -webkit-filter: grayscale(50%); /* Chrome 19+ & Safari 6+ */
+    -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+       filter: gray; /* IE6-9 */
+         -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+         
+}
+
+.services-entry img.services-entry-icon{
+          filter: none;
+    -webkit-filter: grayscale(0);
+    cursor: pointer;
+}
+
+
+.home .services-entry:hover a {
+    color: #6E2A80;
+}
+
+.services-entry-content {
+    cursor: pointer;
+}
+
+
+.services-entry .post-heading {
+    text-align: center;
+    cursor: pointer;
+}
+
+/** services page **/
+
+.serv-hide {
+    display: none;
+}
+
+#serv-full-conent {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 38px;
+    width: 65%;
+    background: url('images/servback.png');
+}
+
+#serv-full-footer {
+    width: 70%;
+    background: #6e2a80;
+    margin: 0 auto;
+    padding: 10px;
+    color: #fff;
+}
+
+#serv-full-footer .footer-widget{
+    margin-bottom: 0;
+}
+
+#serv-full-footer .footer-widget a, #serv-full-footer .footer-widget a:hover, #serv-full-footer .footer-widget a:visited {
+    color: #fff;
+}
+
+
+#serv-full-conent h2 {
+    font-family: 'Allura',cursive;
+    font-size: 400%;
+    font-weight: 100;
+    margin-bottom: 3%;
+}
+
+#serv-full-conent .pcs-featured-image {
+    padding: 3px;
+    border: 1px solid #6E2A80;
+    margin-top: -1%;
+    float: right;
+    margin-left: 6%;
+    
+}
+
+#serv-full-conent p {
+    color: #434343;
+    font-size: 125%;
+    margin-top: 5%;
+}
+
+.su-list ul li {
+    font-size: 165%;
+}
+
+/** Full Width **/
+
+.page-template-templatesfullwidth-php .entry p {
+    margin-top: 3%;
+     color: #434343;
+    font-size: 145%;
+}
+
+
+.page-template-templatesfullwidth-php .entry img.alignleft, .page-template-templatesfullwidth-php .entry img.alignright, .page-template-templatesfullwidth-php .entry a img.alignleft, .page-template-templatesfullwidth-php .entry a img.alignright {
+    border: 1px solid #6E2A80;
+    height: auto;
+    margin-right: 4%;
+    padding: 3px;
+    width: 22%;
+}
+
+/** Contact **/
+.page-id-36 #full-width {
+    margin: 0 auto;
+    width: 85%;
+}
+
+
+/** blog button **/
+.theme-button {
+  background: none repeat scroll 0 0 #B16DBF;
+}
+
+/** Blog **/
+
+
+
+/** footer **/
+
+#footer-wrap {
+  background: none repeat scroll 0 0 #6E2A80;
+  color: #606060;
+}
+
+.footer-widget {
+  text-align: center;
+  font-size: 155%;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+#footer a {
+    color: #fff;
+}
+
+.addthis_default_style .addthis_separator, .addthis_default_style .at300b, .addthis_default_style .at300bo, .addthis_default_style .at300m, .addthis_default_style .at300bs {
+    display: inline-table;
+    float: none;
+}
+
+.sidebar-widget.atfollowwidget.clr {
+    text-align: center;
+}
+
+#footer-thankyou {
+    float: right;
+}
+
+#footer-thankyou p, #footer-thankyou a, #footer-thankyou a:hover {
+    color:#808080;
+}
