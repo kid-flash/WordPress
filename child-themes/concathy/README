@@ -6,3 +6,6 @@ Modifications:
   - uses post-content plugin to load all the services posts into divs and then hides them all with jquery.
   - the list of services are linked to the divs matching the post id so when clicked the services post content appears at top of page.  Very slick and clean if there is little available content
   - also grabs url Get paramters passed from homepage and will auto display respective div on page load.
+
+
+See concathy_project_overview.pdf for project overview
