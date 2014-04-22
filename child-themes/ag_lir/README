@@ -1,0 +1,6 @@
+Modified page template for Loudoun Interfaith Relief.
+Site already used iThemes City-church theme which requires their builder and therefore no separate child theme is allowed.
+
+Included are pertinant files or parts of files.  For example, the actual page template was built using the build in page viewer tools, by copying and pasting in the php.  Thus I've included a separate php file to show what was copied and pasted in.
+ 
+ See ag_lir_project_overview.pdf for more information.
